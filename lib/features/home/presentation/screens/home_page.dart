@@ -6,7 +6,7 @@ import 'package:movie_app/shared/widgets/app_bar.dart';
 import 'package:movie_app/shared/widgets/app_bottom_navigation.dart';
 import 'package:movie_app/shared/widgets/app_drawer.dart';
 
-
+// hello here
 class HomePage extends StatefulWidget {
 
    const HomePage({Key? key}) : super(key: key);
