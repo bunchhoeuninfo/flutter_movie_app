@@ -5,7 +5,7 @@
     <Saa:Revision>2.0.10</Saa:Revision>
     <Saa:Header>
         <Saa:Message>
-            <Saa:SenderReference>OTSPOUS33XXX009$2402132195491</Saa:SenderReference>
+            <Saa:SenderReference>OTSPOUS33XXX009$2402282201847</Saa:SenderReference>
             <Saa:MessageIdentifier>pacs.009.001.08</Saa:MessageIdentifier>
             <Saa:Format>MX</Saa:Format>
             <Saa:SubFormat>Output</Saa:SubFormat>
@@ -27,24 +27,24 @@
                 <Saa:MessageCreator>SWIFTNetInterface</Saa:MessageCreator>
                 <Saa:MessageContext>Copy</Saa:MessageContext>
                 <Saa:MessageNature>Financial</Saa:MessageNature>
-                <Saa:Sumid>1A3524C5FFDE7FDC</Saa:Sumid>
+                <Saa:Sumid>1A215BAEFFDE6708</Saa:Sumid>
             </Saa:InterfaceInfo>
             <Saa:NetworkInfo>
                 <Saa:Priority>Normal</Saa:Priority>
                 <Saa:IsPossibleDuplicate>false</Saa:IsPossibleDuplicate>
                 <Saa:Service>swift.finplus!pf</Saa:Service>
                 <Saa:Network>SWIFTNet</Saa:Network>
-                <Saa:SessionNr>000498</Saa:SessionNr>
-                <Saa:SeqNr>000000775</Saa:SeqNr>
+                <Saa:SessionNr>000512</Saa:SessionNr>
+                <Saa:SeqNr>000001069</Saa:SeqNr>
                 <Saa:SWIFTNetNetworkInfo>
                     <Saa:RequestType>pacs.009.001.08</Saa:RequestType>
                     <Saa:RequestSubtype>swift.cbprplus.02</Saa:RequestSubtype>
-                    <Saa:SWIFTRef>swi99998-2024-02-13T02:55:53.0008.473509Z</Saa:SWIFTRef>
-                    <Saa:SNLRef>SNL99998-2024-02-13T02:55:53.0008.242494Z</Saa:SNLRef>
-                    <Saa:Reference>88cfacc3-89d8-4d36-bddd-0b19224e12d2</Saa:Reference>
+                    <Saa:SWIFTRef>swi99998-2024-02-28T03:06:56.0018.559273Z</Saa:SWIFTRef>
+                    <Saa:SNLRef>SNL99998-2024-02-28T03:06:56.0018.379249Z</Saa:SNLRef>
+                    <Saa:Reference>a0f63b05-1c28-4f34-be13-c065858cd469</Saa:Reference>
                     <Saa:SnFQueueName>tcabkhpp_finplusfut!p</Saa:SnFQueueName>
-                    <Saa:SnFInputTime>0301:2024-02-13T02:55:53</Saa:SnFInputTime>
-                    <Saa:SnFDeliveryTime>2024-02-13T02:55:53Z</Saa:SnFDeliveryTime>
+                    <Saa:SnFInputTime>0301:2024-02-28T03:06:56</Saa:SnFInputTime>
+                    <Saa:SnFDeliveryTime>2024-02-28T03:06:56Z</Saa:SnFDeliveryTime>
                     <Saa:ValidationDescriptor>
                         <SwInt:ValResult>Success</SwInt:ValResult>
                     </Saa:ValidationDescriptor>
@@ -57,26 +57,26 @@
                         <SwSec:Signature>
                             <SwSec:SignedInfo>
                                 <Sw:Reference>
-                                    <Sw:DigestValue>wb6yMyUbImyba2aHfNpniN8/EZYQ67jDQBeIU/XoPa4=</Sw:DigestValue>
+                                    <Sw:DigestValue>Tcik1fWvLr/XL/bMB8mJZ+WBYoAHhoWGllOyqQPIzhk=</Sw:DigestValue>
                                 </Sw:Reference>
                             </SwSec:SignedInfo>
                             <SwSec:SignatureValue>PEMF@Proc-Type: 4,MIC-ONLY
                                 Content-Domain: RFC822
                                 EntrustFile-Version: 2.0
                                 Originator-DN:
-                                cn=%52,cn=test,ou=transaction-signing,ou=transactionmanager,o=swift,o=swift
-                                Orig-SN: 1690692918
+                                cn=%51,cn=test,ou=transaction-signing,ou=transactionmanager,o=swift,o=swift
+                                Orig-SN: 1690692917
                                 MIC-Info: SHA256, RSA,
-                                bNzCh/si++/APlr1kXffT9O71xidAMrAET6ZztD1ZNl3ZSjqMvgOTlMCwzvpqa0s
-                                z9iv755joYsHvmdw/FjXUvzy4vkvWpEui9ZwzBaLfMU2TWHSrGRyvSmVOQO4FYPs
-                                tSherNUu6KKt7otgRLZbanscUBzviy/ZGsNGuZh3rIJ331tdx8JEGjFXfAPJacfd
-                                HY21T3SDblB1x3vcS7hkK3XeQh8kcLLvnHTKGsW/G55UKzEUs8AzKFZfsOedThId
-                                yD/etoipZe9OHzI8vz82kaWCbYoW4/vBJnZNMN8GGFsGUa8im40E1y5fDhYDtQm2
-                                YfV8JD0UAcR0NCUOwPvtqQ==
+                                PPheLoM3i8y8Xc3FZGsccByViUBzITjRJ26ltGH0OiftXOuoQSopjmwe/Bz7sFbD
+                                XiHaG/C9pBbJRRbUaaG5TO1f/1FGBOlIBzpmd4LU+cv1o6fr549wggSUw7/soL5e
+                                wF1jEI0YhU9p3LT/ADa5aMWsdFKWU69VVrlRywf4CD8/pKfLSOIJfRR0fCyYECWf
+                                bboS98O5/m1sCLziVIVXS87P97o6PLbsBM4c5eaZO+rqg36bmACuCeQCPJGWtsxF
+                                XHqPVw3+N5U46ZskRx3tGjl5DYtzSxqTFU7Xg+T+4YuECX1PcYC0i2yPNA9y4km2
+                                iYMOJPI0IkDehnRQ7Otwrw==
                             </SwSec:SignatureValue>
                             <SwSec:KeyInfo>
                                 <SwSec:SignDN>
-                                    cn=%52,cn=test,ou=transaction-signing,ou=transactionmanager,o=swift,o=swift</SwSec:SignDN>
+                                    cn=%51,cn=test,ou=transaction-signing,ou=transactionmanager,o=swift,o=swift</SwSec:SignDN>
                                 <SwSec:CertPolicyId>1.3.21.6.3.10.200.4</SwSec:CertPolicyId>
                             </SwSec:KeyInfo>
                             <SwSec:Manifest>
@@ -86,21 +86,21 @@
                                 </Sw:Reference>
                                 <Sw:Reference>
                                     <Sw:DigestRef>Sw.IARequestHeader</Sw:DigestRef>
-                                    <Sw:DigestValue>Tk3Ir4hSTnqjGsRPiZ+52iAEOAuBriVL1zSHpdP/8zs=</Sw:DigestValue>
+                                    <Sw:DigestValue>YFKAkZF0ylwOjbD36o9Wjje/+HuX0jQOJS0fxt/wQQk=</Sw:DigestValue>
                                 </Sw:Reference>
                                 <Sw:Reference>
                                     <Sw:DigestRef>Sw.RequestPayload and RND</Sw:DigestRef>
-                                    <Sw:DigestValue>E9Vkmsj69rk0WavQiKD4iN5ZxivjEDN2gum0SvDnOmE=</Sw:DigestValue>
+                                    <Sw:DigestValue>WG0ja26OJX0f4H6Ry7GDHVRNACuRmclwEwmeQZJq90s=</Sw:DigestValue>
                                 </Sw:Reference>
                             </SwSec:Manifest>
                             <Sw:Object>
-                                <Sw:RND>SWAmPG56enMzOV1jRkgqd0w5fSM=</Sw:RND>
+                                <Sw:RND>YjhuOUVvWG8+TS52cDFsWl8wJmk=</Sw:RND>
                             </Sw:Object>
                         </SwSec:Signature>
                         <SwSec:Signature>
                             <SwSec:SignedInfo>
                                 <Sw:Reference>
-                                    <Sw:DigestValue>1PuTaGrIzJejm7ifCDO9eAgWQIK81jLB45/ziJc1LgQ=</Sw:DigestValue>
+                                    <Sw:DigestValue>1N88bRzH4fV1OtIX8qtu6qSGM95pijH0uD55OpXaZVQ=</Sw:DigestValue>
                                 </Sw:Reference>
                             </SwSec:SignedInfo>
                             <SwSec:SignatureValue>PEMF@Proc-Type: 4,MIC-ONLY
@@ -109,12 +109,12 @@
                                 Originator-DN: cn=%5,cn=sfm,o=swift,o=swift
                                 Orig-SN: 1668314342
                                 MIC-Info: SHA256, RSA,
-                                UefIYeH4bTom8qZGQS5a7el8VSwYYKiPsm/jJhB0CI6pDA7rbtOt1E/s9KO9kX5E
-                                KRlCTUhCBIUJPkNAZEgIyenwB59pZzCaz2wG1t/jAFlY7dD8aIznXB0brwtdDmfG
-                                2VgszEogsCa9D9U/XpUC2kP6K3ueSjjVMuK1ajYHfF+3+Ccw/KhwwoZIiOC4Mtwb
-                                EH7N77WKwaid1OOybopl7MyOYVt0FNSHXG+onRkrMWmuIfYv7DQKWoPhma6YB9eC
-                                pJOhXBZQVUPoasHTNYmIjULHb0LBoyuhjZxNVgpbTQLWtWzRnRqyUNo3KB0rOHdx
-                                VpLds9z4O7L0uwckNb/Bgg==
+                                bKo70oyO5uIRwvUzBgFErYIYlNIKKQomaeL1elYY4R12zkEiGl/8L8N6letylVcm
+                                Togu9Mnu5/VWEO40sfIlUVfwNCPCf3m3IZkPrPHdEdU8PZ5b1QeDkVHXzG3Utk7n
+                                CtxsBkPKImj23oRqBoK15v6vdPVd6ET+2yDXCEhWDYv0HvR8pWAjqKt/06YjlTCU
+                                VS/PrQpSJlOoqdn+7G+fWB4vzb38igqguO3g5zmJrb5gaJGSXHD0zuxYmmJ9NYMK
+                                PrtSZbPpspqKLMLY7eJI/tciada9xucypHyd8d+RNjDzNA9jG15xtnXxJ1ydaq2d
+                                H6mnC6AKA8OVT2EZFanRAw==
                             </SwSec:SignatureValue>
                             <SwSec:KeyInfo>
                                 <SwSec:SignDN>cn=%5,cn=sfm,o=swift,o=swift</SwSec:SignDN>
@@ -127,25 +127,25 @@
                                 </Sw:Reference>
                                 <Sw:Reference>
                                     <Sw:DigestRef>Sw.IARequestHeader</Sw:DigestRef>
-                                    <Sw:DigestValue>Tk3Ir4hSTnqjGsRPiZ+52iAEOAuBriVL1zSHpdP/8zs=</Sw:DigestValue>
+                                    <Sw:DigestValue>YFKAkZF0ylwOjbD36o9Wjje/+HuX0jQOJS0fxt/wQQk=</Sw:DigestValue>
                                 </Sw:Reference>
                                 <Sw:Reference>
                                     <Sw:DigestRef>Sw.RequestPayload and RND</Sw:DigestRef>
-                                    <Sw:DigestValue>E9Vkmsj69rk0WavQiKD4iN5ZxivjEDN2gum0SvDnOmE=</Sw:DigestValue>
+                                    <Sw:DigestValue>WG0ja26OJX0f4H6Ry7GDHVRNACuRmclwEwmeQZJq90s=</Sw:DigestValue>
                                 </Sw:Reference>
                                 <Sw:Reference>
                                     <Sw:DigestRef>Translated MT</Sw:DigestRef>
-                                    <Sw:DigestValue>PwQVLQY7YGxW3Zxgg2UC+LUEgaj1rE4iUGz/Ms4IHsg=</Sw:DigestValue>
+                                    <Sw:DigestValue>dvb6QPDAO/+9GKZLnKPonMeuoDThoIY/79ozQwULgVI=</Sw:DigestValue>
                                 </Sw:Reference>
                             </SwSec:Manifest>
                             <Sw:Object>
-                                <Sw:RND>SWAmPG56enMzOV1jRkgqd0w5fSM=</Sw:RND>
+                                <Sw:RND>YjhuOUVvWG8+TS52cDFsWl8wJmk=</Sw:RND>
                             </Sw:Object>
                         </SwSec:Signature>
                     </Saa:SignatureValue>
                 </Saa:SWIFTNetSecurityInfo>
             </Saa:SecurityInfo>
-            <Saa:ExpiryDateTime>20240304025555</Saa:ExpiryDateTime>
+            <Saa:ExpiryDateTime>20240319030658</Saa:ExpiryDateTime>
         </Saa:Message>
     </Saa:Header>
     <Saa:Body>
@@ -164,36 +164,36 @@
                     </head:FinInstnId>
                 </head:FIId>
             </head:To>
-            <head:BizMsgIdr>MID/5862.0/b8c5c</head:BizMsgIdr>
+            <head:BizMsgIdr>MID/5861.0/b3328</head:BizMsgIdr>
             <head:MsgDefIdr>pacs.009.001.08</head:MsgDefIdr>
             <head:BizSvc>swift.cbprplus.02</head:BizSvc>
-            <head:CreDt>2024-02-13T03:55:24.624+01:00</head:CreDt>
+            <head:CreDt>2024-02-28T04:07:34.393+01:00</head:CreDt>
             <head:PssblDplct>false</head:PssblDplct>
         </head:AppHdr>
         <pacs:Document xmlns:pacs="urn:iso:std:iso:20022:tech:xsd:pacs.009.001.08">
             <pacs:FICdtTrf>
                 <pacs:GrpHdr>
-                    <pacs:MsgId>MID/5862.0/b8c5c</pacs:MsgId>
-                    <pacs:CreDtTm>2024-02-13T03:55:24.624+01:00</pacs:CreDtTm>
+                    <pacs:MsgId>MID/5861.0/b3328</pacs:MsgId>
+                    <pacs:CreDtTm>2024-02-28T04:07:34.393+01:00</pacs:CreDtTm>
                     <pacs:NbOfTxs>1</pacs:NbOfTxs>
                     <pacs:SttlmInf>
-                        <pacs:SttlmMtd>INDA</pacs:SttlmMtd>
+                        <pacs:SttlmMtd>INGA</pacs:SttlmMtd>
                     </pacs:SttlmInf>
                 </pacs:GrpHdr>
                 <pacs:CdtTrfTxInf>
                     <pacs:PmtId>
-                        <pacs:InstrId>IID/5862.0/b8c5c</pacs:InstrId>
-                        <pacs:EndToEndId>E2E/5862.0/4475d</pacs:EndToEndId>
-                        <pacs:TxId>TID/5862.0/4475d</pacs:TxId>
-                        <pacs:UETR>d40d68cf-464a-4cec-bfe2-4b2e45f7e4d9</pacs:UETR>
+                        <pacs:InstrId>IID/5861.0/b3328</pacs:InstrId>
+                        <pacs:EndToEndId>E2E/5861.0/18bf9</pacs:EndToEndId>
+                        <pacs:TxId>TID/5861.0/18bf9</pacs:TxId>
+                        <pacs:UETR>0a539a3f-4515-4eb0-b117-8799bb46a4e8</pacs:UETR>
                     </pacs:PmtId>
                     <pacs:PmtTpInf>
                         <pacs:SvcLvl>
                             <pacs:Cd>G004</pacs:Cd>
                         </pacs:SvcLvl>
                     </pacs:PmtTpInf>
-                    <pacs:IntrBkSttlmAmt Ccy="EUR">1000.0</pacs:IntrBkSttlmAmt>
-                    <pacs:IntrBkSttlmDt>2024-02-13</pacs:IntrBkSttlmDt>
+                    <pacs:IntrBkSttlmAmt Ccy="EUR">8500.0</pacs:IntrBkSttlmAmt>
+                    <pacs:IntrBkSttlmDt>2024-02-28</pacs:IntrBkSttlmDt>
                     <pacs:InstgAgt>
                         <pacs:FinInstnId>
                             <pacs:BICFI>TSPOUS30XXX</pacs:BICFI>
@@ -222,23 +222,9 @@
                             </pacs:PstlAdr>
                         </pacs:FinInstnId>
                     </pacs:DbtrAgt>
-                    <pacs:DbtrAgtAcct>
-                        <pacs:Id>
-                            <pacs:IBAN>BE17897614421421</pacs:IBAN>
-                        </pacs:Id>
-                    </pacs:DbtrAgtAcct>
                     <pacs:CdtrAgt>
                         <pacs:FinInstnId>
                             <pacs:BICFI>TCABKHP0XXX</pacs:BICFI>
-                            <pacs:LEI>5493001V58884LQBXZ84</pacs:LEI>
-                            <pacs:Nm>J TRUST ROYAL BANK PLC</pacs:Nm>
-                            <pacs:PstlAdr>
-                                <pacs:StrtNm>Kramuon Sar Corner of Street 67</pacs:StrtNm>
-                                <pacs:BldgNb>20</pacs:BldgNb>
-                                <pacs:PstCd>12208</pacs:PstCd>
-                                <pacs:TwnNm>Phnom Penh </pacs:TwnNm>
-                                <pacs:Ctry>KH</pacs:Ctry>
-                            </pacs:PstlAdr>
                         </pacs:FinInstnId>
                     </pacs:CdtrAgt>
                     <pacs:Cdtr>
@@ -256,22 +242,16 @@
                 </pacs:CdtTrfTxInf>
             </pacs:FICdtTrf>
         </pacs:Document><!--
-        {1:F01TCABKHP0XXXX0000000000}{2:O2022155240212TSPOUS30XXXX00000000002402130955N}{3:{111:004}{121:d40d68cf-464a-4cec-bfe2-4b2e45f7e4d9}}{4:^~:20:IID/5862.0/b8c5c^~:21:E2E/5862.0/4475d^~:32A:240213EUR1000,^~:52A:TSPABEB0XXX^~:57A:TCABKHP0XXX^~:58A:TSPPUS30XXX^~:72:/INS/TSPBBEB0XXX^~/BNF/Invoice
-        nr 009 in 08^~-}{5:{CHK:8BE78A3C8131}{TNG:}} --><!--
+        {1:F01TCABKHP0XXXX0000000000}{2:O2022206240227TSPOUS30XXXX00000000002402281006N}{3:{111:004}{121:0a539a3f-4515-4eb0-b117-8799bb46a4e8}}{4:^~:20:IID/5861.0/b3328^~:21:E2E/5861.0/18bf9^~:32A:240228EUR8500,^~:52A:TSPABEB0XXX^~:57A:TCABKHP0XXX^~:58A:TSPPUS30XXX^~:72:/INS/TSPBBEB0XXX^~/BNF/Invoice
+        nr 009 in 08^~-}{5:{CHK:697902B20708}{TNG:}} --><!--
         TranslationResult=TRAK --><!--
         TranslationInfo version 1.0.0.1
 {
 	"errors": [
 		{
 			"code": "TRAK",
-			"message": "IGNORED.T0000M Input content is ignored.\r\nValue '<TxId>TID/5862.0/4475d</TxId>' has
+			"message": "IGNORED.T0000M Input content is ignored.\r\nValue '<TxId>TID/5861.0/18bf9</TxId>' has
         been dropped.\r\nInput path: Document/FICdtTrf/CdtTrfTxInf/PmtId/TxId",
-			"path": "MT202"
-		},
-		{
-			"code": "TRAK",
-			"message": "IGNORED.T0000M Input content is ignored.\r\nValue '<LEI>5493001V58884LQBXZ84</LEI>' has
-        been dropped.\r\nInput path: Document/FICdtTrf/CdtTrfTxInf/CdtrAgt/FinInstnId/LEI",
 			"path": "MT202"
 		},
 		{
@@ -279,13 +259,6 @@
 			"message": "IGNORED.T0000M Input content is ignored.\r\nValue '<PstlAdr><AdrLine>Sample
         address</AdrLine></PstlAdr>' has been dropped.\r\nInput path:
         Document/FICdtTrf/CdtTrfTxInf/DbtrAgt/FinInstnId/PstlAdr",
-			"path": "MT202"
-		},
-		{
-			"code": "TRAK",
-			"message": "IGNORED.T0000M Input content is ignored.\r\nValue
-        '<DbtrAgtAcct><Id><IBAN>BE17897614421421</IBAN></Id></DbtrAgtAcct>' has been
-        dropped.\r\nInput path: Document/FICdtTrf/CdtTrfTxInf/DbtrAgtAcct",
 			"path": "MT202"
 		}
 	]
@@ -304,10 +277,10 @@
                         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
                     </ds:Transforms>
                     <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-                    <ds:DigestValue>f7cIuwsPs2KPtJASWQZ+fx388/9gRhzpmsILJj7ILAE=</ds:DigestValue>
+                    <ds:DigestValue>DTuP4wKoW417mH7fgoXX4+ks/1s9H0GWVJYO8+xjIL0=</ds:DigestValue>
                 </ds:Reference>
             </ds:SignedInfo>
-            <ds:SignatureValue>kjNA+tCAzKKk9vlwbLnmL+PfZ3G0JqFrunxj+tLTimE=</ds:SignatureValue>
+            <ds:SignatureValue>0ja7l5HDXcDFMO4rI+jjRT1yNoDKKRJETaiFLsIJ7Nw=</ds:SignatureValue>
         </ds:Signature>
     </Saa:LAU>
 </Saa:DataPDU>
