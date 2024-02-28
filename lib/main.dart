@@ -1,38 +1,40 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:movie_app/core/observers.dart';
 
 
+import 'core/app.dart';
+import 'di/Injector.dart';
 
-void main() {
-  runApp(MovieApp());
-}
+void main() => runMain();
 
+Future<void> runMain() async {
+  await dotenv.load(fileName: ".env");
+  WidgetsFlutterBinding.ensureInitialized();
+  await initSingletons();
+  provideDataSources();
+  provideRepositories();
+  provideUseCases();
+  // Setting Device Orientation
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]);
 
-class MovieApp extends StatefulWidget {
-  @override
-  State<StatefulWidget> createState() => _MovieAppState();
-}
+  //status bar color
+  // SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light.copyWith(
+  //   statusBarColor: AppColors.white,
+  //   statusBarBrightness: Brightness.light,
+  // ));
 
-class _MovieAppState extends State<MovieApp> {
-
-  @override
-  void initState() {
-    SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
-
-    super.initState();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    // TODO: implement build
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        scaffoldBackgroundColor: Color(0xFF0F111D),
-      )
-    );
-  }
-
+  runApp(ProviderScope(
+    observers: [
+      Observers(),
+    ],
+    child: const MyApp(),
+  ));
 }
 
 /*
