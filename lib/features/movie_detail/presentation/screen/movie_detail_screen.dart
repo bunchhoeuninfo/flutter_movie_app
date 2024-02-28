@@ -1,4 +1,4 @@
-import 'package:dartz/dartz.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:get_it/get_it.dart';
@@ -32,10 +32,10 @@ class _MovieDetailScreenState extends ConsumerState<MovieDetailScreen> {
 GetIt sl=GetIt.instance;
     debugPrint('_MovieDetailScreenState - method called here $sl.movieId');
 
-    //Future(() {
-      //ref.read(movieDetailStateNotifier.notifier).getMovie(id: widget.movieId);
-      //ref.read(movieDetailStateNotifier.notifier).checkIfBookMarked(widget.movieId);
-    //});
+    Future(() {
+      ref.read(movieDetailStateNotifier.notifier).getMovie(id: widget.movieId);
+      ref.read(movieDetailStateNotifier.notifier).checkIfBookMarked(widget.movieId);
+    });
   }
 
   @override

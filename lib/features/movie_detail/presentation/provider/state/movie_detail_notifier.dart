@@ -5,9 +5,10 @@ import 'package:dartz/dartz.dart';
 import 'package:movie_app/features/movie_detail/domain/use_cases/add_bookmark_use_case.dart';
 import 'package:movie_app/features/movie_detail/domain/use_cases/get_movie_details_use_case.dart';
 import 'package:movie_app/features/movie_detail/domain/use_cases/is_bookmark_details_use_case.dart';
-import 'package:movie_app/features/bookmarks/domain/use_cases/remove_bookmarks_use_case.dart';
+
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:movie_app/di/Injector.dart';
+import 'package:movie_app/features/movie_detail/domain/use_cases/remove_bookmark_use_case.dart';
 import 'package:movie_app/features/movie_detail/presentation/provider/state/movie_detail_state.dart';
 import 'package:movie_app/models/movie_detail.dart';
 import 'package:movie_app/shared/util/app_exception.dart';
