@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:movie_app/features/home/presentation/screens/home_page.dart';
 import 'package:movie_app/features/movie_detail/presentation/screen/movie_detail_screen.dart';
-
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'app_router.g.dart';
