@@ -2,7 +2,7 @@ import 'package:dartz/dartz.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:movie_app/di/Injector.dart';
-import 'package:movie_app/features/bookmarks/domain/presentation/state/bookmark_state.dart';
+import 'package:movie_app/features/bookmarks/presentation/providers/state/bookmark_state.dart';
 import 'package:movie_app/features/bookmarks/domain/use_cases/get_bookmarks_use_case.dart';
 import 'package:movie_app/features/bookmarks/domain/use_cases/remove_bookmarks_use_case.dart';
 import 'package:movie_app/models/movie_detail.dart';

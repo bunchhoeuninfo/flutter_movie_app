@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:movie_app/app/app_dimens.dart';
+import 'package:movie_app/app/app_strings.dart';
+import 'package:movie_app/features/home/presentation/widgets/now_showing_movies.dart';
+import 'package:movie_app/features/home/presentation/widgets/popular_movies.dart';
+import 'package:movie_app/shared/extentsions/build_context_extensions.dart';
 import 'package:movie_app/shared/network/network_values.dart';
 
 

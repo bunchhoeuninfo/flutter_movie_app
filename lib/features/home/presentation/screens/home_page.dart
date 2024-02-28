@@ -1,6 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
+import 'package:movie_app/features/bookmarks/presentation/screens/bookmark_screen.dart';
 import 'package:movie_app/features/home/presentation/screens/home_screen.dart';
 import 'package:movie_app/shared/widgets/app_bar.dart';
 import 'package:movie_app/shared/widgets/app_bottom_navigation.dart';
