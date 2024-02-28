@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:filmku/features/bookmarks/presentation/providers/bookmark_notifier_provider.dart';
-import 'package:filmku/features/bookmarks/presentation/providers/state/bookmark_state.dart';
-import 'package:filmku/features/bookmarks/presentation/widgets/bookmark_card.dart';
+import 'package:movie_app/features/bookmarks/presentation/providers/bookmark_notifier_provider.dart';
+import 'package:movie_app/features/bookmarks/presentation/providers/state/bookmark_state.dart';
+import 'package:movie_app/features/bookmarks/presentation/widgets/bookmark_card.dart';
+
 
 
 class BookmarkScreen extends ConsumerStatefulWidget {
