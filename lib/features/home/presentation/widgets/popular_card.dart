@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:movie_app/app/app_configs.dart';
 import 'package:movie_app/app/app_dimens.dart';
+import 'package:movie_app/features/home/presentation/providers/home_state_notifier_provider.dart';
 import 'package:movie_app/features/home/presentation/providers/state/genre_state.dart';
 import 'package:movie_app/models/movie.dart';
 import 'package:movie_app/shared/extentsions/build_context_extensions.dart';

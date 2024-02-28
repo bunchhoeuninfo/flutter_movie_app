@@ -9,6 +9,7 @@ import 'package:movie_app/features/home/data/datasource/local/home_local_datasou
 import 'package:movie_app/features/home/data/datasource/local/home_local_datasource_imp.dart';
 import 'package:movie_app/features/home/data/datasource/remote/home_remote_data_source.dart';
 import 'package:movie_app/features/home/data/datasource/remote/home_remote_datasource.dart';
+import 'package:movie_app/features/home/data/repositories/home_repository_impl.dart';
 import 'package:movie_app/features/home/domain/repositories/home_repository.dart';
 import 'package:movie_app/features/home/domain/use_cases/fetch_and_cache_genre_use_case.dart';
 import 'package:movie_app/features/home/domain/use_cases/fetch_and_cache_movies_use_case.dart';

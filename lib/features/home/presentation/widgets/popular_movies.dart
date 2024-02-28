@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'package:go_router/go_router.dart';
+import 'package:movie_app/features/home/presentation/providers/home_state_notifier_provider.dart';
 import 'package:movie_app/features/home/presentation/widgets/popular_card.dart';
 import 'package:movie_app/features/home/presentation/widgets/shimmer/popular_shimmer.dart';
 import 'package:movie_app/routes/app_router.dart';
