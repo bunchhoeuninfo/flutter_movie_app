@@ -119,7 +119,7 @@ class MovieDetailBody extends StatelessWidget {
                     style: context.textTheme.bodySmall,
                   ),
                   Text(
-                    'English',
+                    movieDetail.originalLanguage.toLowerCase(),
                     style: context.textTheme.bodyMedium,
                   )
                 ],
